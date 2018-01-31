@@ -1,0 +1,10 @@
+[package]
+name = "library"
+version = "0.1.0"
+authors = ["garritfra <32395585+garritfra@users.noreply.github.com>"]
+
+[dependencies]
+
+[lib]
+name = "fibonacci"
+crate-type = ["dylib"]
