@@ -1,7 +1,8 @@
-let helloWorld:string = "Hello World"
+import * as ffi from 'ffi';
+// import * as path from 'path';
 
-console.log(helloWorld);
-
-let div = document.querySelector("div");
+var lib = ffi.Library(path.join(__dirname, '../target/release/libembed'), {
+    fibonacci: ['int', ['int']]
+  });
 
 

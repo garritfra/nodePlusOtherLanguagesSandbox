@@ -6,5 +6,5 @@ authors = ["garritfra <32395585+garritfra@users.noreply.github.com>"]
 [dependencies]
 
 [lib]
-name = "fibonacci"
+name = "library"
 crate-type = ["dylib"]
