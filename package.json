@@ -1,0 +1,14 @@
+{
+  "name": "webassemblySandbox",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "author": "garritfra <32395585+garritfra@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "dependencies": {
+    "node-sass": "^4.7.2",
+    "parcel-bundler": "^1.5.1"
+  }
+}
