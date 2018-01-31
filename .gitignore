@@ -61,3 +61,6 @@ typings/
 #Others
 .cache
 dist
+.lock
+*.lock
+yarn.lock
